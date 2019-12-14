@@ -75,7 +75,7 @@ These are the settings currently available:
   'schema.polling.interval': 2000, // schema polling interval in ms
   'schema.disableComments': boolean,
   'tracing.hideTracingResponse': true,
-  'tracing.tracingSupported': true, // set false to disable tracing, x-apollo-tracing header
+  'tracing.tracingSupported': true, // set false to remove x-apollo-tracing header from Schema fetch requests
 }
 ```
 
